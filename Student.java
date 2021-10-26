@@ -153,7 +153,7 @@ public class Student extends Library implements StudentServices {
             // Returns if user have no pending fine
             System.out.println("Your pending fine amount is:" + this.fine);
             if (this.fine == 0) {
-                System.out.println("You don't have any pending fees! Thank you :) ");
+                System.out.println("You don't have any pending fines! Thank you :) ");
                 return;
             }
             // Getting amunt to be payed
